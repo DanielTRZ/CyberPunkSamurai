@@ -145,7 +145,7 @@ function openArchive() {
 
     setTimeout(() => {
         output.classList.remove("glitch");
-        window.open("../archive/index.html", "_blank");
+        window.open("../archive/arch.html", "_blank");
     }, 1400);
 }
 
