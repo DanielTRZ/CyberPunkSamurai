@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#terminal {
+    width: 90%;
+    max-width: 900px;
+    height: 90vh;
+    padding: 20px;
+    color: #00ff9c;
+    background:
+        linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.95)),
+        url("samurai.png") center center no-repeat;
+    background-size: 2600px  1680px;
+    background-position: center -250px;
+    border: 2px solid #ff003c;
+    box-shadow: 0 0 25px #ff003c;
+    overflow-y: auto;
+    font-size:18px ;
+}
+
+#output {
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+}
+
+.input-line {
+    display: flex;
+    align-items: center;
+    font-size:22px; 
+}
+
+.prompt {
+    margin-right: 8px;
+    color: #ff003c;
+}
+
+input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #00ff9c;
+    width: 100%;
+    font-size: 16px;
+}
+
+/* Glitch bonus */
+.glitch {
+    animation: glitch 0.15s infinite;
+}
+
+@keyframes glitch {
+    0% { text-shadow: 2px 0 red; }
+    50% { text-shadow: -2px 0 cyan; }
+    100% { text-shadow: 2px 0 red; }
+}
+
+#footer {
+    position: absolute;
+    bottom: 10px;  /* odległość od dołu terminala */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: #ff003c;
+}

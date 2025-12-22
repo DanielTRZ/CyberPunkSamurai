@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background:
+        linear-gradient(rgba(0,0,0,0.88), rgba(0,0,0,0.95)),
+        url("samurai.png") center center no-repeat;
+    background-size: 2800px;
+    background-attachment: fixed;
+    color: #00ff9c;
+    font-family: 'Courier New', monospace;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #ff003c;
+    font-size: 26px;
+}
+
+h1 {
+    color: #ff003c;
+    letter-spacing: 4px;
+    text-shadow: 0 0 10px #ff003c;
+}
+
+.lang button {
+    background: black;
+    color: #00ff9c;
+    border: 1px solid #00ff9c;
+    margin: 5px;
+    padding: 16px 16px;
+    cursor: pointer; 
+    font-size: 18px;
+}
+
+.lang button:hover {
+    background: #00ff9c;
+    color: black;
+}
+
+main {
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.6;
+    font-size: 18px;
+ 
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #ff003c;
+    border-bottom: 1px solid #ff003c;
+    font-size: 30px;
+}
+
+/* TIMELINE */
+.timeline {
+    border-left: 2px solid #ff003c;
+    padding-left: 20px;
+}
+
+.event {
+    margin-bottom: 20px;
+}
+
+/* FADE IN */
+.fade-in {
+    animation: fade 1.2s ease forwards;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ff003c;
+    font-size: 16px;
+}
