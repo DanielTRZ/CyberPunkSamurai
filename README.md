@@ -8,7 +8,7 @@ project/<BR>
 │   └── button-click-sound.mp3<BR>
 <BR>
 ├── archive/<BR>
-│   ├── index.html<BR>
+│   ├── arch.html<BR>
 │   ├── style.css<BR>
 │   ├── archive.js<BR>
 │   └── samurai.png<BR>
