@@ -1,6 +1,6 @@
 # CyberPunkSamurai<BR>
 project/<BR>
-├── terminal/
+├── terminal/<BR>
 │   └── index.html<BR>
 │   └── style.css<BR>
 │   └── app.js<BR>
