@@ -6,7 +6,6 @@
 
 
 
-
 let lang = "pl";
 const content = document.getElementById("content");
 
@@ -18,7 +17,6 @@ pl: `
 SAMURAI to legendarny zespół punk-rockowy z Night City, założony na początku XXI wieku. Grupa szybko stała się symbolem buntu przeciwko korporacyjnemu uciskowi, szczególnie wobec megakorporacji Arasaka. Dla jednych byli terrorystami kulturowymi, dla innych – jedynym głosem wolności w mieście, które sprzedało duszę za kredyty.
 
 Frontmanem zespołu był Johnny Silverhand – charyzmatyczny, agresywny i bezkompromisowy muzyk, weteran wojenny i zadeklarowany wróg korporacji. Jego teksty nie były metaforą – były oskarżeniem. SAMURAI nie śpiewali o miłości czy zabawie. Śpiewali o kontroli, manipulacji, niewolnictwie ekonomicznym i o tym, że Night City pożera własnych mieszkańców.
-
 Muzyka zespołu była surowa, głośna i brutalnie szczera. Koncerty często kończyły się zamieszkami, interwencjami ochrony lub policji, a czasem czymś znacznie gorszym. Dla fanów SAMURAI byli bohaterami. Dla korporacji – zagrożeniem.
 
 Zespół rozpadł się po serii konfliktów wewnętrznych i eskalacji działań Johnny’ego Silverhanda przeciwko Arasace. Mimo to legenda SAMURAI przetrwała dekady. Ich utwory krążą po Night City jak cyfrowe duchy, a idea buntu, którą głosili, wciąż inspiruje kolejne pokolenia outsiderów, netrunnerów i rebeliantów.
