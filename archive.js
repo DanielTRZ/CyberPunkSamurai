@@ -7,7 +7,6 @@
 
 
 
-
 let lang = "pl";
 const content = document.getElementById("content");
 
